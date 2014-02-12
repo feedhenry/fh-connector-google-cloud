@@ -1,0 +1,9 @@
+{
+    "name": "Google",
+    "type": "cloud_nodejs",
+    "repoUrl": "https://github.com/feedhenry/fh-connector-google-cloud.git",
+    "repoBranch": "refs/heads/master",
+    "image": "public/img/cloud_plugins/google.png",
+    "category": "SaaS Connectors",
+    "configuration": []
+}
