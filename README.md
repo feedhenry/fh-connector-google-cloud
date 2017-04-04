@@ -1,6 +1,7 @@
 FORMAT: 1A
 
 # FeedHenry Google APIs Connector
+[![Dependency Status](https://img.shields.io/david/feedhenry-templates/fh-connector-google-cloud.svg?style=flat-square)](https://david-dm.org/feedhenry-templates/fh-connector-google-cloud)
 
 The FeedHenry Google APIs Connector. For more information on Google APIs see: [https://github.com/google/google-api-nodejs-client](https://github.com/google/google-api-nodejs-client).
 
