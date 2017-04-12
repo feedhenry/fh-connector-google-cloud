@@ -31,7 +31,7 @@ The FeedHenry Google APIs Connector. For more information on Google APIs see: [h
 
 ## Tests
 
-All the tests are in the "test/" directory. The cloud app is using mock as the test runner. 
+All the tests are in the "test/" directory. The cloud app is using mocha as the test runner. 
 
 ### Unit tests
 
