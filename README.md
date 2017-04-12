@@ -1,27 +1,46 @@
-FORMAT: 1A
-
 # FeedHenry Google APIs Connector
+
 [![Dependency Status](https://img.shields.io/david/feedhenry-templates/fh-connector-google-cloud.svg?style=flat-square)](https://david-dm.org/feedhenry-templates/fh-connector-google-cloud)
 
 The FeedHenry Google APIs Connector. For more information on Google APIs see: [https://github.com/google/google-api-nodejs-client](https://github.com/google/google-api-nodejs-client).
 
-# Group Google APIs Connector API
+## Group Google APIs Connector API
 
-# Google APIs [/cloud/googleapis]
+### Shorten a url using Google's URL shortening API
 
-Shorten url
+|              |                   |
+|--------------|-------------------|
+| Endpoint     | /cloud/googleapis |
+| HTTP Method  | POST              |
 
-## Google APIs [POST] 
 
-Shorten a url using Google's URL shortening API
+#### Request (application/json)
 
-+ Request (application/json)
-    + Body
-            {
-              "url": "http://google.ie"
-            }
+```json
+{
+    "url": "http://google.ie"
+}
+```
 
-+ Response 200 (application/json)
-    + Body
-            {
-            }
+#### Response 200 (application/json)
+
+```json
+{
+}
+```
+
+## Tests
+
+All the tests are in the "test/" directory. The cloud app is using mocha as the test runner. 
+
+### Unit tests
+
+```shell
+npm run unit
+```
+
+### Unit coverage
+
+```shell
+npm run coverage
+```
